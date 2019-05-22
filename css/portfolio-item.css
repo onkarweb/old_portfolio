@@ -11,7 +11,46 @@ body {
 .smallimg{
 	width: 300px;
 	height: 200px;
+	border: 2px solid gray;
 }
+
+.smallimg:hover{
+	border: 2px solid violet;
+}
+
+.avatar_img{
+	border-radius: 50%;
+	border:2px solid gray;
+	vertical-align: middle;
+	height: 300px;
+	width: 300px;
+}
+
+.contact_info{
+	text-align: center;
+	margin: 8px 0px 52px 0px; ;
+}
+
+.contact_icons{
+	border-radius: 50%;
+	border:2px solid gray;
+	vertical-align: middle;
+	height: 180px;
+	width: 180px;
+}
+body {
+    margin-bottom:70px;
+}
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	padding: 15px 0px;
+	}
+
 
 @media (min-width: 992px) {
   body {
