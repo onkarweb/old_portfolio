@@ -9,13 +9,15 @@ body {
 }
 
 .smallimg{
-	width: 300px;
+	width: 330px;
 	height: 200px;
 	border: 2px solid gray;
+	transition: all 0.4s ease;
 }
 
 .smallimg:hover{
 	border: 2px solid violet;
+	transform: scale(1.05);
 }
 
 .avatar_img{
@@ -41,9 +43,6 @@ body {
 body {
     margin-bottom:70px;
 }
-
-
-
 
 footer{
 	position: fixed;
